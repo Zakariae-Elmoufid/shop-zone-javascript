@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopZone - Products</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar with Cart and Favorites Icons -->
+    <header class="bg-primary text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 mb-0">ShopZone</h1>
+            <div>
+                <a href="favourite.html" class="text-white mx-3">
+                    <span class="badge badge-light">Fav</span>
+                </a>
+                <a href="cart.html" class="text-white ">
+                    🛒 <span id="cart-count" class="badge badge-light">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <div class="container my-4">
+        <h2 class="mb-4">Products</h2>
+        <div id="product-list" class="row"></div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (for interactive components) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JS script files -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

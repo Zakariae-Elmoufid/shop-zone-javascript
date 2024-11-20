@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopZone - Cart</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <!-- Navbar with Cart icon and navigation link -->
+    <header class="bg-primary text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.html" class="text-white">Back to Products</a>
+            <h1 class="h3 mb-0">Shopping Cart</h1>
+        </div>
+    </header>
+    
+    <!-- Cart items list -->
+    <div class="container my-4">
+        <div id="cart-items" class="list-group mb-3"></div>
+        
+        <!-- Total amount display and checkout button -->
+        <div class="d-flex justify-content-between align-items-center">
+            <p class="h5">Total: $<span id="cart-total">0.00</span></p>
+            <button onclick="checkout()" class="btn btn-success">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (for any interactive components) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JS script for managing cart items and actions -->
+    <script src="js/cart.js"></script>
+</body>
+</html>

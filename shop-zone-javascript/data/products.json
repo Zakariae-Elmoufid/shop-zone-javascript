@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Product A",
+        "price": 25.99,
+        "image": "https://via.placeholder.com/150",
+        "category": "Home"
+
+    },
+    {
+        "id": 2,
+        "name": "Product B",
+        "price": 40.00,
+        "image": "https://via.placeholder.com/150",
+        "category": "Home"
+    },
+    {
+        "id": 3,
+        "name": "Product C",
+        "price": 15.50,
+        "image": "https://via.placeholder.com/150",
+        "category": "Phone"
+    },
+    {
+        "id": 4,
+        "name": "Product D",
+        "price": 17.50,
+        "image": "https://via.placeholder.com/150",
+        "category": "Tv"
+    }
+]
